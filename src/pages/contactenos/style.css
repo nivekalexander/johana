@@ -1,0 +1,179 @@
+.contactenos{
+    padding-top: 5%;
+    
+}
+.redes-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.redesSociales-fotos,.redes-content-img{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    
+}
+.redes-Img{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    height: 400px;
+}
+.redes-Img img{
+   width:100%;
+    height:100%;
+}
+.redes-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.redes-icons .facebook, .redes-icons .instagram   {
+    
+  margin-right: 50px;
+}
+
+.redes-icons .facebook, .redes-icons .instagram ,.redes-icons img {
+    
+    
+    height: 80px;
+    width: 80px;
+}
+.redes-content-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondoLiquid-content{
+display: flex;
+background-image: url("./media/liquidFondoBlue.png");
+background-size: cover;
+width: 600px;
+height: 620px;
+ 
+}
+.fondoLiquid{
+    position: absolute;
+    
+}
+@media only screen  
+and (min-width:100px) and (max-width:400px){
+    .contactenos{
+        padding-top: 10%;
+        
+    }
+    .redesSociales-fotos,.redes-content-img{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        
+    }
+    .redesSociales-fotos{
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+    }
+    .redes-icons{
+        justify-content: center;
+    }
+    .fondoLiquid-content{
+       
+        width: 330px;
+        height: 310px;
+        margin-left: -10px;
+         
+    }
+    .redes-Img{
+        display: flex;
+        justify-content: flex-start;
+        width: 300px;
+        height: 200px;
+    }
+    .redes-icons .facebook, .redes-icons .instagram ,.redes-icons img {
+    
+    
+        height: 50px;
+        width: 50px;
+    }
+}
+@media only screen  
+and (min-width:400px) and (max-width:600px){
+    .contactenos{
+        padding-top: 10%;
+        
+    }
+    .redesSociales-fotos,.redes-content-img{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        
+    }
+    .redesSociales-fotos{
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+    }
+    .redes-icons{
+        justify-content: center;
+    }
+    .fondoLiquid-content{
+       
+        width: 430px;
+        margin-left: -45px;
+        height: 450px;
+         
+    }
+    .redes-Img{
+        display: flex;
+        justify-content: flex-start;
+        width: 400px;
+        height: 300px;
+    }
+    .redes-icons .facebook, .redes-icons .instagram ,.redes-icons img {
+    
+    
+        height: 60px;
+        width: 60px;
+    }
+}
+@media only screen  
+and (min-width:600px) and (max-width:766px){
+    .redesSociales-fotos,.redes-content-img{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        
+    }
+    .redesSociales-fotos{
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+    }
+    .redes-icons{
+        justify-content: center;
+    }
+}
+@media only screen  
+and (min-width:766px) and (max-width:1024px){
+    .redesSociales-fotos,.redes-content-img{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        
+    } 
+    .redesSociales-fotos{
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+    }
+    .redes-icons{
+        justify-content: center;
+    }
+
+}

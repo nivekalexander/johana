@@ -1,0 +1,109 @@
+.testimonio{
+    display: flex;
+     
+    flex-direction: column;
+    padding: 10% 2% 0% 2%;
+   
+}
+.testimonio-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #800080;
+}
+.testimonioPersonas{
+
+    display: flex; 
+    flex-direction: row;
+    
+    
+    padding-top: 2%;
+    
+
+}
+.cardPersona-foto{
+    margin-bottom:5%;
+    margin-top: -70px;
+    
+}
+.cardPersona-foto img{
+    height: 180px;
+   border-radius: 50%;
+   border:5px solid rgba(0, 0, 0, 0.18);
+   box-shadow: 1px 5px 20px rgba(17, 17, 17, 0.37);
+    
+   width: 200px;
+}
+.cardPersona{
+    z-index: 5;
+    border-radius: 8%;
+    margin: 10% 3% 3% 3%;
+    padding: 2% 2% 1% 2%;
+    display: flex; 
+    background-color: rgba(138, 11, 11, 0.1);
+    box-shadow: 0 8px 32px rgba(17, 17, 17, 0.37);
+     /*backdrop-filter: blur(2px);*/
+    border: 1px solid rgba(136, 136, 136, 0.18);
+    flex-direction: column;
+    align-items: center;
+
+}
+.cardPersona-paciente h5{
+    color: #800080;
+}
+@media only screen  
+and (min-width:100px) and (max-width:400px){
+
+    .testimonioPersonas{
+
+        display: flex; 
+        flex-direction: column;
+        
+        
+        padding-top: 2%;
+        
+    
+    }
+}
+
+
+@media only screen  
+and (min-width:400px) and (max-width:600px){
+    .testimonioPersonas{
+
+        display: flex; 
+        flex-direction: column;
+        
+        
+        padding-top: 2%;
+        
+    
+    }
+}
+@media only screen  
+and (min-width:600px) and (max-width:766px){
+    .testimonioPersonas{
+
+        display: flex; 
+        flex-direction: column;
+        
+        
+        padding-top: 2%;
+        
+    
+    }
+}
+@media only screen  
+and (min-width:766px) and (max-width:1024px){
+    .testimonioPersonas{
+
+        display: flex; 
+        flex-direction: column;
+        
+        
+        padding-top: 2%;
+        
+    
+    }  
+  
+}

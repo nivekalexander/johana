@@ -1,0 +1,175 @@
+.header{
+    
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    width: 90%;
+    z-index: 20;
+    flex-flow: column;
+    flex: 1 1 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 2px 2px 5px #999;
+    /*firefox safari*/
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    /*internet explored*/
+    filter: shadow(color=#999999, direction=135, strength=2);
+}   
+    .menu{
+        
+        
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+        width: 100%;
+    
+    }
+    
+    .logo{
+        display: flex;
+        flex: 0.1 1 auto;
+        height: 50px;
+        width: 200px;
+        
+
+    }
+        .logo img{
+            height:auto;
+            width: 100%;
+            
+        }
+         
+    .nav{
+        display: flex;
+       
+        flex: 8 1 auto;
+        flex-direction: row-reverse;
+        padding-right: 20px;
+    }
+        .unoNavUl{
+            
+           display: flex;
+           flex-direction: row;
+           list-style: none;
+           
+        }
+        .nav ul li{
+            margin-left: 10px;
+            
+        }
+        .nav ul li a {
+            
+            text-decoration:none;
+            color: rgb(75, 75, 75);
+        }
+        .nav ul li a:active {
+            border-bottom: 5px solid rgba(113, 247, 202);
+            cursor: pointer;
+        }
+        
+        
+      
+        .nav ul li a:hover {
+            border-bottom: 5px dotted #0099ff;
+            cursor: pointer;
+        }
+        .nav ul li a:hover:active {
+            border-bottom: 5px inset  #ff3232;
+            cursor: pointer;
+        }
+    .iconoMenu{
+        border-radius: 15px;
+        display: none;
+        flex-direction: row-reverse;
+        width: 50px;
+        height: 50px;
+        
+        flex: 1 1 auto;
+    }
+    .iconoMenu img{
+       
+        width: 50px;
+        height: 50px;
+        
+    }
+    .iconoMenu img:hover{
+
+        background-color: #33a2ec;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .unoPantalla{
+        display: fixed !important ;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+        width: 100%;
+    }
+    .dosPantalla{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+         
+        width: 100%;
+    }
+    .unoNav{
+        display: flex!important;
+        flex-direction: column;
+        
+
+    }
+    
+
+    .dosNavUl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        margin-top: 10%;
+        
+    }
+     
+    
+
+    @media only screen  
+    and (min-width:100px) and (max-width:400px){
+        .nav {
+
+            display: none;
+
+        }
+        .iconoMenu{
+            display: flex;
+           
+        }
+    
+    }
+    @media only screen  
+    and (min-width:400px) and (max-width:600px){
+
+        .nav {
+
+            display: none;
+
+        }
+        .iconoMenu{
+            display: flex;
+            
+        }
+
+    }
+    @media only screen  
+    and (min-width:600px) and (max-width:800px){
+
+        .nav {
+
+            display: none;
+
+        }
+        .iconoMenu{
+            display: flex;
+            
+        }
+        
+    }

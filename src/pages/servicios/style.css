@@ -1,0 +1,68 @@
+.Servicios{
+
+    padding-top: 5%;
+    margin-bottom:-20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ServiciosHeader{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -18%;
+    justify-content: space-around;
+    width: 100%;
+}
+.titleServicios{
+    font-size: 40px;
+    padding-top: 4%;
+}
+.iconServicios img{
+    width: 600px;
+}
+.listaServicios{
+    background-color: #0099ff;
+    margin-top: -4.4%;
+    margin-bottom:-4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.cardBodyServ{
+    z-index: 5;
+    padding: 1% 2% 0% 2%;
+    margin-top: 3%;
+    width: 25%;
+    background-color: rgba(238, 238, 238, 0.30);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    /*backdrop-filter: blur(2px);*/
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 5%;
+}
+.cardHeaderServ{
+    display: flex;
+    justify-content: center;
+    
+}
+@media only screen  
+and (min-width:400px) and (max-width:600px){
+
+}
+@media only screen  
+and (min-width:600px) and (max-width:766px){
+
+}
+@media only screen  
+and (min-width:766px) and (max-width:1024px){
+        
+
+}

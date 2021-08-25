@@ -1,0 +1,148 @@
+.horario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.horario-marco{
+    width: 100%;
+    
+        
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.b-left{
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.b-right{
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.horario-dia{
+    border-width: 1px;
+    background-color: #0099ff; 
+    border-style: solid;
+    border-color: rgb(221, 218, 218);
+     
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:250px;
+    height:150px;
+}
+.horario-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.horario-imgOne , .horario-imgtwo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.horario-imagen  {
+    
+    width: 250px;
+    height: 150px;
+}
+.horario-imagen img{
+    
+    width: 100%;
+    height: 100%;
+}
+.horario-imgtwo{
+   justify-content: flex-end;
+}
+@media only screen  
+and (min-width:100px) and (max-width:400px){
+    .horario-dia{
+
+        width: 150px;
+        height: 100%;
+    }
+    .horario-marco{
+         
+        flex-direction: column;
+        flex: 1 1 auto;
+        width: 100%;
+    }
+    .horario-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .horario-imgOne,.horario-imgtwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }
+}
+
+
+@media only screen  
+and (min-width:400px) and (max-width:670px){
+    .horario-marco{
+         
+        flex-direction: column;
+        flex: 1 1 auto;
+        width: 100%;
+
+    }
+    .horario-content{
+        display: flex;
+        flex-direction: column;
+         
+    }
+    .horario-imgOne,.horario-imgtwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }
+    .horario-dia{
+
+        width: 150px;
+        height: 100%;
+    }
+}
+@media only screen  
+and (min-width:670px) and (max-width:760px){
+    .horario-marco{
+        
+        flex-direction: column;
+        flex: 1 1 auto;
+        width: 100%;
+    }
+    .horario-content{
+        display: flex;
+        flex-direction: row;
+         
+    }
+    .horario-imgOne,.horario-imgtwo{
+        display: flex;
+        flex-direction: column;
+    }
+    .horario-imgtwo{
+        justify-content: flex-end;
+     }
+    .horario-dia{
+
+        width: 150px;
+        height: 100%;
+    }
+}
+

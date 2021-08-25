@@ -1,0 +1,16 @@
+
+
+#root{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-flow: column;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+   
+}
+body{
+    margin: auto;
+    z-index: 2;
+}

@@ -1,0 +1,307 @@
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.padding-lados{
+    padding: 0% 5% 0% 5%;
+ }
+ 
+.personal-info{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fotoPerfil{
+    display: flex;
+    flex: 2 1 auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius:100px;
+}
+.fotoPerfil img{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    flex: 6 1 auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+.certificados{
+    margin-top: -4%;
+    padding-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(83 86 87);
+}
+.certificadosFotos{
+   justify-content: space-evenly;
+     width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.diploma img , .atencion img{
+    padding: 18px;
+    height: 300px;
+    width: 400px;
+    border-radius: 10%;
+     
+}
+.mision{
+    margin-bottom: -290px;
+}
+.mision-content{
+            
+    color: rgb(214, 255, 255);
+    margin-top: -3%;
+    background-color: #0099ff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -2px;
+
+}
+.mision-content h2, .vision-content h2{
+    color:purple ;
+   
+}
+.mision-content .slider-mision{
+    display: flex;
+    flex: 4 1 auto;
+    margin-right: 5%;
+}
+ 
+.mision-content .content-mision,
+.vision-content .content-vision{
+    display: flex;
+    flex: 3 1 auto;
+    flex-direction: column;
+    
+}
+
+.vision-content{
+    color: rgb(214, 255, 255);
+     padding-top: 5%;
+    background-color: #0099ff;
+    display: flex;
+    flex-direction: row;
+
+}
+.vision-content .foto-vision{
+    display: flex;
+    flex: 4 1 auto;
+    
+}
+.vision-content .foto-vision img
+,.mision-content .slider-mision img{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+@media only screen  
+and (min-width:100px) and (max-width:400px){
+    
+    .personal-info{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .fotoPerfil img{
+        width: 80%;
+        height: 80%;
+        border-radius: 100%;
+    }
+    .certificadosFotos{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+         
+         display: flex;
+         flex-direction: column;
+         
+     
+     }
+     .diploma img , .atencion img{
+        padding: 18px;
+        height: 280px;
+        width: 300px;
+        border-radius: 10%;
+         
+    }
+    .mision{
+        margin-bottom: -80px;
+    }
+    .mision-content{
+        display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    
+    }
+    .mision-content .content-mision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content{
+        display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; 
+    align-items: center;
+    }
+    .vision-content .content-vision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content .foto-vision img
+    ,.mision-content .slider-mision img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px!important;
+    }
+
+}
+@media only screen  
+and (min-width:400px) and (max-width:600px){
+    .mision{
+        margin-bottom: -110px;
+    }
+    .personal-info{
+     
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+    .certificadosFotos {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    .mision-content{
+        display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    }
+    .mision-content .content-mision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content{
+        display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; 
+    align-items: center;
+    }
+    .vision-content .content-vision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content .foto-vision img
+    ,.mision-content .slider-mision img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px!important;
+    }
+
+
+}
+@media only screen  
+and (min-width:600px) and (max-width:766px){
+    .mision{
+        margin-bottom: -150px;
+    }  
+    .personal-info{
+     
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+    .certificadosFotos {
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    .mision-content{
+        display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    }
+    .mision-content .content-mision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content{
+        display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; 
+    align-items: center;
+    }
+    .vision-content .content-vision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content .foto-vision img
+    ,.mision-content .slider-mision img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px!important;
+    }
+
+}
+@media only screen  
+and (min-width:766px) and (max-width:1024px){
+    .mision{
+        margin-bottom: -150px;
+    }    
+    .personal-info{
+     
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+
+    .certificadosFotos {
+        
+        flex-direction: column;
+       
+    }
+            
+   
+    .vision-content .foto-vision img
+    ,.mision-content .slider-mision img{
+        width: 350px;
+        height: 100%;
+    }
+
+}

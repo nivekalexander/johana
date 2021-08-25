@@ -1,0 +1,94 @@
+.footer{
+    /*background-color: #0375b8;
+    */
+    
+    display: flex;
+    
+    flex-direction:column;
+
+    bottom: 0px;
+    flex: 1 1 auto;
+}
+.pie{
+    display: flex;
+    flex-direction:row;
+    background-color: #363839;
+    padding: 1% 5% 1% 5%;
+}
+.contacto{
+    
+    flex: 3 1 auto;
+}
+    
+.contacto , .copyRight{
+    color:rgb(231, 221, 221);
+}
+.infoContacto{
+    color:rgb(216, 215, 215);
+    
+}
+.copyRight{
+    background-color: #2e2f30;
+    color:rgb(204, 203, 203);
+    display: flex;
+    justify-content: center;
+}
+.RedesSociales{
+    display: flex;
+    flex-direction: column;
+    flex: 6 1 auto;
+     
+  }
+.RedesSociales-fotos{
+  height: 100%;
+  display: flex;
+   
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   
+}
+    .facebook{
+        height: 50px;
+        width: 50px;
+        padding: 5%;
+    }
+        .facebook img{
+            height: 100%;
+            width: 100%;
+            
+        }
+    .instagram{
+        padding: 5%;
+        height: 50px;
+        width: 50px;
+    }
+        .instagram img{
+            height: 100%;
+            width: 100%;
+            
+        }
+
+        @media only screen  
+        and (min-width:100px) and (max-width:400px){
+            .pie{
+                flex-direction: column;
+            }
+        
+        }
+        @media only screen  
+        and (min-width:400px) and (max-width:600px){
+ 
+            .pie{
+                flex-direction: column;
+            }
+
+        }
+        @media only screen  
+        and (min-width:600px) and (max-width:800px){
+
+        .pie{
+                flex-direction: column;
+            }
+            
+        }

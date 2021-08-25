@@ -1,0 +1,189 @@
+.inicio{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+}
+ .padding-lados{
+    padding: 0% 5% 0% 5%;
+ }
+ .padding-abajo{
+    padding: 0% 0% 5% 0%;
+ }
+ .padding-arriba{
+    padding: 5% 0% 0% 0%;
+    margin-bottom: -20%;
+ }
+    .header-Inicio{
+        margin-top: 3px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction:row;
+    }
+        .header-Inicio img{
+           
+            width: 100%;
+            height: auto;
+            object-fit: fill;
+           
+        
+        }
+    .content-inicio{
+        display: flex;
+        flex-direction:column;
+        
+
+    }
+    
+        .content-quienSomos{
+            display: flex;
+            flex-direction: row;
+           
+        }
+        .content-quienSomos h1{
+           color: #800080;
+        }
+            .foto-quienSomos{
+                
+                height: 30%;
+                width:30%;
+                display: flex;
+                flex: 4 5 auto;
+                justify-content: flex-end;
+                position: relative;
+            }
+            .foto-quienSomos img{
+                z-index: 10;
+                height: 100%;
+                width: 100%;
+            }
+            .color1 , .color2 , .color3 , .color4{
+                position:absolute;
+            }
+          
+            
+
+             
+            .contenido-quienSomos{
+                display: flex;
+                flex-direction: column;
+                flex: 0.1 1 auto;
+                justify-content: center;
+                
+                width: 45%;
+
+            }
+            
+           
+
+
+@media only screen  
+and (min-width:100px) and (max-width:400px){
+
+    .content-quienSomos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenido-quienSomos{
+        display: flex;
+        flex-direction: column;
+        width: 80%!important;
+        
+        
+    }
+   .foto-quienSomos{
+    display: flex;
+    width: 100%!important; 
+    height: 100%!important;
+    justify-content: center; 
+    align-items: center;
+    }   
+    .mision-content{
+        display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    }
+    .mision-content .content-mision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content{
+        display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; 
+    align-items: center;
+    }
+    .vision-content .content-vision {
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .vision-content .foto-vision img
+    ,.mision-content .slider-mision img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px!important;
+    }
+
+}
+
+
+@media only screen  
+and (min-width:400px) and (max-width:600px){
+    
+    .content-quienSomos{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenido-quienSomos{
+        display: flex;
+        flex-direction: column;
+        width: 80%!important;
+        
+        
+    }
+   .foto-quienSomos{
+    display: flex;
+    width: 100%!important; 
+    height: 100%!important;
+     
+    justify-content: center; 
+    align-items: center;
+    }   
+    
+}
+@media only screen  
+and (min-width:600px) and (max-width:766px){
+        
+    .content-quienSomos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenido-quienSomos{
+        display: flex;
+        flex-direction: column;
+        width: 80%!important;
+        
+        
+    }
+   .foto-quienSomos{
+    display: flex;
+    width: 100%!important; 
+    height: 100%!important;
+    justify-content: center; 
+    align-items: center;
+    }   
+    
+
+}
+@media only screen  
+and (min-width:766px) and (max-width:1024px){
+
+
+}
